@@ -1,0 +1,419 @@
+/*Configuração Geral do Site*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(237, 224, 206);
+}
+
+nav{
+    background-color: #04244e;
+}
+
+.log{
+    display: flex;
+    
+}
+
+#logo{
+    margin-right: 1400px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 25px;
+       
+ }
+
+
+ /*Decoração geral das letras do cabeçalho*/
+ a{
+    
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 16px;
+     font-family: 'Rajdhani', sans-serif;
+     
+ }
+ 
+ /*Configurações do "Home"*/
+ #a1{
+
+    padding: 30px;
+     
+ }
+ 
+ /*Configurações do "Inscrever=se"*/
+ #a2{
+   padding: 30px;
+   
+ 
+ }
+ 
+ /*Configurações do "Entrar"*/
+ #a3{
+   padding-left: 20px;
+
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 5px;
+ }
+
+#banner{
+    width: 100%;
+} 
+
+
+#nacional{
+    color: black;
+    font-style: italic;
+    
+}
+
+.categorias{
+  display: flex;
+  justify-content: center;
+}
+
+.categorias:hover img{
+    transition: 1;
+    scale: 1.1;
+    
+  }
+
+#internacional{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#nacional{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.row{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+
+.card p img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+#img1{
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+#p1{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#img2{
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+#p2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.card3{
+   grid-column-start: 3;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+#img3{
+    width: 300px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+#p3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#h{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    color: #ff7b00;
+    text-shadow: 0px 2px 2px black;
+}
+
+
+#h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    color: #ff7b00;
+    text-shadow: 0px 2px 2px black;
+}
+
+
+.row2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+#img4{
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+#p4{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.card5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.card6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+
+#img5{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+
+#img6{
+    width: 340px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: black 2px 1px 9px 0px;
+}
+
+
+#pp1{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+#pp2{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#pp3{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#pp4{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+#p5{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#pp5{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#p6{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#pp6{
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+
+.row :hover img{
+    transition: 1;
+    scale: 1.1;
+}
+
+.row2 :hover img{
+    transition: 1;
+    scale: 1.1;
+}
+
+
+footer{
+    background-color: #04244e;
+    height: 400px;
+    margin-top: 200px;
+}
+
+#whats{
+  padding: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+#gmail{
+    padding: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+#insta{
+    padding: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.row3{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.row4{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#objet{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#foot{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#foot1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#social{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#reds{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#reds1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#sobre{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#quem{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+#quem1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
